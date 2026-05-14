@@ -40,7 +40,7 @@ jobs:
         run: |
           # Archive aşaması (Projeye göre adları değiştir)
           xcodebuild -project Ksign.xcodeproj \
-                     -scheme MyScheme \
+                     -scheme Ksign \
                      -sdk iphoneos \
                      -configuration Debug \
                      -archivePath $RUNNER_TEMP/Ksign.xcarchive \
