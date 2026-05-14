@@ -40,7 +40,6 @@ jobs:
         run: |
           # Archive aşaması (Projeye göre adları değiştir)
           xcodebuild -project Ksign.xcodeproj \
-                   -resolvePackageDependencies \
                      -scheme Ksign \
                      -sdk iphoneos \
                      -configuration Debug \
